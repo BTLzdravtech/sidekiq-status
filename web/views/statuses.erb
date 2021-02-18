@@ -44,8 +44,15 @@
   margin: 20px 0 20px 10px;
   white-space: nowrap;
 }
-.nav-container .per-page SELECT {
+.nav-container .per-page SELECT, .nav-container .filter-status SELECT {
   margin: 0 0 0 5px;
+}
+@media only screen and (prefers-color-scheme: dark) {
+  select {
+    color: #ddd !important;
+    background-color: #282828 !important;
+    border: 1px solid #555 !important;
+  }
 }
 </style>
 <script>
